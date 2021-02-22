@@ -1,0 +1,11 @@
+draw_set_alpha(1)
+draw_set_font(global.thenfont)
+draw_set_halign(fa_left)
+draw_window(8+v_offset,128,26,8)
+draw_set_color(c_white)
+draw_text(_x[1],_y[0],string_hash_to_newline("Say, are you a boy or a girl?"))
+draw_text(_x[1]+6,_y[1],string_hash_to_newline("I'm a boy"))
+draw_text(_x[1]+6,_y[2],string_hash_to_newline("I'm a girl"))
+draw_text(_x[1]+6,_y[3],string_hash_to_newline("Why are you asking me so many questions?"))
+draw_sprite(spr_cursor,cursor_image_index,cursor_x+3,cursor_y+7)
+

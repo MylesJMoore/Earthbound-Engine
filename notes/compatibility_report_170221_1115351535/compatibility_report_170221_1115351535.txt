@@ -1,0 +1,1444 @@
+Converting GML script: ${project_dir}\scripts\init_system\init_system.gml
+Converted string - line 36: ' ' -> " "
+Converted string - line 37: ' ' -> " "
+Converted string - line 38: ' ' -> " "
+
+Converting GML script: ${project_dir}\scripts\init_skill_definitions\init_skill_definitions.gml
+Converted string - line 61: "\" -> "\\"
+Converted string - line 95: "\" -> "\\"
+Converted string - line 129: "\" -> "\\"
+Converted string - line 164: "\" -> "\\"
+Converted string - line 196: "\" -> "\\"
+Converted string - line 226: "\" -> "\\"
+Converted string - line 232: "In addition to the effects of Healing \,#" -> "In addition to the effects of Healing \\,#"
+Converted string - line 397: "\" -> "\\"
+Converted string - line 431: "\" -> "\\"
+Converted string - line 458: "\" -> "\\"
+Converted string - line 494: "\" -> "\\"
+Converted string - line 530: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\init_input\init_input.gml
+Converted string - line 3: 'Z' -> "Z"
+Converted string - line 4: 'X' -> "X"
+Converted string - line 6: 'M' -> "M"
+Converted string - line 7: 'Q' -> "Q"
+Converted string - line 8: 'W' -> "W"
+
+Converting GML script: ${project_dir}\scripts\item_exists\item_exists.gml
+Converted description /// @description item_exists(inventory,item)/// @param inventory
+/// @param item
+
+Converting GML script: ${project_dir}\scripts\item_exists_at_slot\item_exists_at_slot.gml
+Converted description /// @description item_exists_at_slot(inventory,slot)/// @param inventory
+/// @param slot
+
+Converting GML script: ${project_dir}\scripts\find_item\find_item.gml
+Converted description /// @description find_item(item,inventory)/// @param item
+/// @param inventory
+
+Converting GML script: ${project_dir}\scripts\del_item\del_item.gml
+Converted description /// @description del_item(slot)/// @param slot
+
+Converting GML script: ${project_dir}\scripts\del_item_inv\del_item_inv.gml
+Converted description /// @description del_item:inv(slot,inventory)/// @param slot
+/// @param inventory
+
+Converting GML script: ${project_dir}\scripts\add_item\add_item.gml
+Converted description /// @description add_item(item,inventory)/// @param item
+/// @param inventory
+
+Converting GML script: ${project_dir}\scripts\add_item_ext\add_item_ext.gml
+Converted description /// @description add_item_ext(item)/// @param item
+
+Converting GML script: ${project_dir}\scripts\add_item_storage\add_item_storage.gml
+Converted description /// @description add_item_storage(item)/// @param item
+
+Converting GML script: ${project_dir}\scripts\del_item_storage\del_item_storage.gml
+Converted description /// @description del_item_storage(slot)/// @param slot
+
+Converting GML script: ${project_dir}\scripts\item_exists_at_storage_slot\item_exists_at_storage_slot.gml
+Converted description /// @description item_exists_at_storage_slot(slot)/// @param slot
+
+Converting GML script: ${project_dir}\scripts\show_shop\show_shop.gml
+Converted description /// @description show_shop(shop)/// @param shop
+
+Converting GML script: ${project_dir}\scripts\equipment_symbol_check\equipment_symbol_check.gml
+Converted string - line 14: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\scripts\stat_backup\stat_backup.gml
+Converted description /// @description stat_backup(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\stat_restore\stat_restore.gml
+Converted description /// @description stat_restore(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\eqp_boosts\eqp_boosts.gml
+Converted description /// @description eqp_boosts(player)/// @param player
+
+Converting GML script: ${project_dir}\scripts\super_level_up\super_level_up.gml
+Converted description /// @description super_level_up(new level,player)/// @param new level
+/// @param player
+
+Converting GML script: ${project_dir}\scripts\level_up_battle\level_up_battle.gml
+Converted description /// @description level_up_battle(alarm)/// @param alarm
+
+Converting GML script: ${project_dir}\scripts\player_cure\player_cure.gml
+Converted description /// @description player_cure(player id [0 for everyone],cure ailments?,cure dead?)/// @param player id [0 for everyone]
+/// @param cure ailments?
+/// @param cure dead?
+
+Converting GML script: ${project_dir}\scripts\lifeup_effect\lifeup_effect.gml
+Converted description /// @description lifeup_effect(type)/// @param type
+
+Converting GML script: ${project_dir}\scripts\play_music\play_music.gml
+Converted description /// @description play_music(sound_id,pitch)/// @param sound_id
+/// @param pitch
+
+Converting GML script: ${project_dir}\scripts\draw_sprite_tiled_horizontal\draw_sprite_tiled_horizontal.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_wview -> __view_get( e__VW.WView, 0 )
+Converted description /// @description draw_sprite_tiled_horizontal(sprite, image, x, y);/// @param sprite
+/// @param  image
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\draw_sprite_tiled_vertical\draw_sprite_tiled_vertical.gml
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description draw_sprite_tiled_vertical(sprite, image, x, y);/// @param sprite
+/// @param  image
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\draw_background_tiled_horizontal\draw_background_tiled_horizontal.gml
+Converted builtin - line 18: view_xview[view_current] -> __view_get( e__VW.XView, view_current )
+Converted builtin - line 18: view_wview[view_current] -> __view_get( e__VW.WView, view_current )
+Converted description /// @description draw_background_tiled_horizontal(back,x,y)/// @param back
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\draw_background_tiled_vertical\draw_background_tiled_vertical.gml
+Converted builtin - line 17: view_yview[view_current] -> __view_get( e__VW.YView, view_current )
+Converted builtin - line 17: view_hview[view_current] -> __view_get( e__VW.HView, view_current )
+Converted description /// @description draw_background_tiled_vertical(back,x,y)/// @param back
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\draw_background_tiled_area\draw_background_tiled_area.gml
+Converted description /// @description  draw_background_tiled_area(background,x,y,x1,y1,x2,y2)/// @param background
+/// @param x
+/// @param y
+/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+
+Converting GML script: ${project_dir}\scripts\draw_sprite_tiled_area\draw_sprite_tiled_area.gml
+Converted description /// @description draw_sprite_tiled_area(sprite,subimg,x,y,x1,y2,x2,y2)/// @param sprite
+/// @param subimg
+/// @param x
+/// @param y
+/// @param x1
+/// @param y2
+/// @param x2
+/// @param y2
+
+Converting GML script: ${project_dir}\scripts\draw_window\draw_window.gml
+Converted description /// @description draw_window(x,y,width,height)/// @param x
+/// @param y
+/// @param width
+/// @param height
+
+Converting GML script: ${project_dir}\scripts\choose_health_bar_sprite\choose_health_bar_sprite.gml
+Converted description /// @description choose_health_bar_sprite(0: Normal - 1: Panic - 2: Dead)/// @param 0: Normal - 1: Panic - 2: Dead
+
+Converting GML script: ${project_dir}\scripts\draw_odometer\draw_odometer.gml
+Converted description /// @description draw_odometer(var,x,y)/// @param var
+/// @param x
+/// @param y
+
+Converting GML script: ${project_dir}\scripts\question\question.gml
+Converted description /// @description question(choice_no, choice 1, choice 2, choice 3, choice 4, choice 5)/// @param choice_no
+/// @param  choice 1
+/// @param  choice 2
+/// @param  choice 3
+/// @param  choice 4
+/// @param  choice 5
+
+Converting GML script: ${project_dir}\scripts\pron\pron.gml
+Converted description /// @description pron(0: him/her; 1: his/her; 2: his/her+self)/// @param 0: him/her; 1: his/her; 2: his/her+self
+
+Converting GML script: ${project_dir}\scripts\random_npc_movt\random_npc_movt.gml
+Converted description /// @description random_npc_movt(speed)/// @param speed
+
+Converting GML script: ${project_dir}\scripts\start_battle\start_battle.gml
+Converted description /// @description start_battle(enemy1,enemy2,enemy3,enemy4,enemy5,Boss? 0: Normal - 1: Boss,Type? 0: Blue - 1: Green - 2: Red)/// @param enemy1
+/// @param enemy2
+/// @param enemy3
+/// @param enemy4
+/// @param enemy5
+/// @param Boss? 0: Normal - 1: Boss
+/// @param Type? 0: Blue - 1: Green - 2: Red
+
+Converting GML script: ${project_dir}\scripts\start_cutscene\start_cutscene.gml
+Converted description /// @description start_cutscene(timeline)/// @param timeline
+
+Converting GML script: ${project_dir}\scripts\lower\lower.gml
+Converted description /// @description lower(string)/// @param string
+
+Converting GML script: ${project_dir}\scripts\range\range.gml
+Converted description /// @description range(min,max)/// @param min
+/// @param max
+
+Converting GML script: ${project_dir}\scripts\upper\upper.gml
+Converted description /// @description upper(string)/// @param string
+
+Converting GML script: ${project_dir}\scripts\ini_load_data\ini_load_data.gml
+Converted description /// @description ini_load_data(skipstats)/// @param skipstats
+
+Converting GML script: ${project_dir}\scripts\ini_load_config\ini_load_config.gml
+Converted string - line 7: 'Z' -> "Z"
+Converted string - line 8: 'X' -> "X"
+Converted string - line 10: 'M' -> "M"
+Converted string - line 11: 'Q' -> "Q"
+Converted string - line 12: 'W' -> "W"
+
+Converting GML script: ${project_dir}\scripts\ini_save_config\ini_save_config.gml
+Converted description /// @description ini_save_config(save save file data)/// @param save save file data
+
+Converting GML script: ${project_dir}\scripts\binary_in\binary_in.gml
+Converted description /// @description binary_in(buffer, typeList)/// @param buffer
+/// @param  typeList
+
+Converting GML script: ${project_dir}\scripts\binary_out\binary_out.gml
+Converted description /// @description binary_out(typeList, dataMap)/// @param typeList
+/// @param  dataMap
+
+Converting GML script: ${project_dir}\scripts\iff\iff.gml
+Converted description /// @description iff(condition,true,false)/// @param condition
+/// @param true
+/// @param false
+
+Converting GML script: ${project_dir}\scripts\set_flag\set_flag.gml
+Converted description /// @description set_flag(flag,state)/// @param flag
+/// @param state
+
+Converting GML script: ${project_dir}\scripts\add_to_flag\add_to_flag.gml
+Converted description /// @description add_to_flag(flag,value to add)/// @param flag
+/// @param value to add
+
+Converting GML script: ${project_dir}\scripts\get_flag\get_flag.gml
+Converted description /// @description get_flag(flag)/// @param flag
+
+Converting GML script: ${project_dir}\scripts\key_name\key_name.gml
+Converted description /// @description key_name(key)/// @param key
+Converted string - line 112: 'A' -> "A"
+Converted string - line 114: 'B' -> "B"
+Converted string - line 116: 'C' -> "C"
+Converted string - line 118: 'D' -> "D"
+Converted string - line 120: 'E' -> "E"
+Converted string - line 122: 'F' -> "F"
+Converted string - line 124: 'G' -> "G"
+Converted string - line 126: 'H' -> "H"
+Converted string - line 128: 'I' -> "I"
+Converted string - line 130: 'J' -> "J"
+Converted string - line 132: 'K' -> "K"
+Converted string - line 134: 'L' -> "L"
+Converted string - line 136: 'M' -> "M"
+Converted string - line 138: 'N' -> "N"
+Converted string - line 140: 'O' -> "O"
+Converted string - line 142: 'P' -> "P"
+Converted string - line 144: 'Q' -> "Q"
+Converted string - line 146: 'R' -> "R"
+Converted string - line 148: 'S' -> "S"
+Converted string - line 150: 'T' -> "T"
+Converted string - line 152: 'U' -> "U"
+Converted string - line 154: 'V' -> "V"
+Converted string - line 156: 'W' -> "W"
+Converted string - line 158: 'X' -> "X"
+Converted string - line 160: 'Y' -> "Y"
+Converted string - line 162: 'Z' -> "Z"
+Converted string - line 164: '0' -> "0"
+Converted string - line 166: '1' -> "1"
+Converted string - line 168: '2' -> "2"
+Converted string - line 170: '3' -> "3"
+Converted string - line 172: '4' -> "4"
+Converted string - line 174: '5' -> "5"
+Converted string - line 176: '6' -> "6"
+Converted string - line 178: '7' -> "7"
+Converted string - line 180: '8' -> "8"
+Converted string - line 182: '9' -> "9"
+
+Converting GML script: ${project_dir}\scripts\string_split\string_split.gml
+Converted description /// @description string_split(string,delimiter)/// @param string
+/// @param delimiter
+
+Converting GML script: ${project_dir}\scripts\string_trim\string_trim.gml
+Converted description /// @description  string_trim(str)/// @param str
+
+Converting GML script: ${project_dir}\scripts\ic\ic.gml
+Converted description /// @description ic(x,y,obj)/// @param x
+/// @param y
+/// @param obj
+
+Converting GML script: ${project_dir}\scripts\ide\ide.gml
+Converted description /// @description ide()
+
+Converting GML script: ${project_dir}\scripts\ie\ie.gml
+Converted description /// @description ie(obj)/// @param obj
+
+Converting GML script: ${project_dir}\scripts\ido\ido.gml
+Converted description /// @description ido(obj)/// @param obj
+
+Converting GML script: ${project_dir}\scripts\kc\kc.gml
+Converted description /// @description kc(key)/// @param key
+
+Converting GML script: ${project_dir}\scripts\kcp\kcp.gml
+Converted description /// @description kcp(key)/// @param key
+
+Converting GML script: ${project_dir}\scripts\window_resize_and_center\window_resize_and_center.gml
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_hview -> __view_get( e__VW.HView, 0 )
+
+!!! Font fnIntro uses a font (@Batang) not installed on this system - Font has NOT been regenerated
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnIntro\fnIntro.gms1.png
+Font fnSans has been converted to font family Microsoft Sans Serif (Regular)
+GameMaker Studio 1 font texture has been backed up at ${project_dir}\fonts\fnSans\fnSans.gms1.png
+Converting GML script: ${project_dir}\objects\objBattleController\Alarm_4.gml
+Converted description /// @description Second count
+
+Converting GML script: ${project_dir}\objects\objBattleController\Alarm_3.gml
+Converted description /// @description  Runaway result
+
+Converting GML script: ${project_dir}\objects\objBattleController\Alarm_2.gml
+Converted description /// @description Run away
+
+Converting GML script: ${project_dir}\objects\objBattleController\Alarm_1.gml
+Converted description /// @description Give control to player or enemy if battle type = 2
+
+Converting GML script: ${project_dir}\objects\objBattleController\Alarm_0.gml
+Converted description /// @description Battle start messages
+
+Converting GML script: ${project_dir}\objects\objBattleMsg\Create_0.gml
+Converted builtin - line 19: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_yview -> __view_get( e__VW.YView, 0 )
+Converted string - line 10: 'I' -> "I"
+
+Converting GML script: ${project_dir}\objects\objBattleMsg\Draw_0.gml
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objTurnMaster\Alarm_1.gml
+Converted description /// @description Giving everyone their turns
+
+Converting GML script: ${project_dir}\objects\objTurnMaster\Other_12.gml
+Converted description /// @description First turn
+
+Converting GML script: ${project_dir}\objects\objTurnMaster\Other_11.gml
+Converted description /// @description  What should I do when a turn ends?
+
+Converting GML script: ${project_dir}\objects\objTurnMaster\Other_10.gml
+Converted description /// @description Create battle killer
+
+Converting GML script: ${project_dir}\objects\objTurnMaster\Other_5.gml
+Converted description /// @description Destroy turn list
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_11.gml
+Converted description /// @description Continue
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_8.gml
+Converted description /// @description Can't concentrate
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_7.gml
+Converted description /// @description Asleep
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_6.gml
+Converted description /// @description Shocked
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_5.gml
+Converted description /// @description Crying
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_4.gml
+Converted description /// @description Numbness
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_3.gml
+Converted description /// @description Solidification
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_2.gml
+Converted description /// @description Radiation
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_1.gml
+Converted description /// @description Infection
+
+Converting GML script: ${project_dir}\objects\objStatusMaster\Alarm_0.gml
+Converted description /// @description Poison
+
+Converting GML script: ${project_dir}\objects\objPassiveMaster\Alarm_11.gml
+Converted description /// @description Continue
+
+Converting GML script: ${project_dir}\objects\objPassiveMaster\Alarm_0.gml
+Converted description /// @description Regeneration
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_10.gml
+Converted description /// @description Facing the other way
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_8.gml
+Converted description /// @description Can't concentrate
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_7.gml
+Converted description /// @description Asleep
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_6.gml
+Converted description /// @description Shocked
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_5.gml
+Converted description /// @description Crying
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_4.gml
+Converted description /// @description Numb
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_3.gml
+Converted description /// @description Solidified
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_2.gml
+Converted description /// @description Radiation
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_1.gml
+Converted description /// @description Infection
+
+Converting GML script: ${project_dir}\objects\objEnStatusMaster\Alarm_0.gml
+Converted description /// @description Poison
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_11.gml
+Converted description /// @description End the battle 
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_10.gml
+Converted description /// @description Level up
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_9.gml
+Converted description /// @description The battle ends the moment the player dies, else turns start again
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_6.gml
+Converted description /// @description Enemy drops
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_5.gml
+Converted description /// @description Kill the players
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_4.gml
+Converted description /// @description Win the battle else try to kill the players
+
+Converting GML script: ${project_dir}\objects\objBattleKiller\Alarm_1.gml
+Converted description /// @description Kill the enemies
+
+Converting GML script: ${project_dir}\objects\objTargetSelector\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objPlayerSelector\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objHealthBar\Alarm_3.gml
+Converted description /// @description PP Roll
+
+Converting GML script: ${project_dir}\objects\objHealthBar\Alarm_2.gml
+Converted description /// @description Blinking (store)/// @param store
+
+Converting GML script: ${project_dir}\objects\objHealthBar\Alarm_1.gml
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 14: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 23: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 26: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 38: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 41: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 44: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 23: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 29: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 38: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 41: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 44: view_wview -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Set positions and create ailments bubble
+
+Converting GML script: ${project_dir}\objects\objHealthBar\Alarm_0.gml
+Converted description /// @description HP Roll
+
+Converting GML script: ${project_dir}\objects\objHealthBar\Step_0.gml
+Converted description /// @description Animate overlays
+
+Converting GML script: ${project_dir}\objects\objMortalDamage\Create_0.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview=i[0] -> __view_set( e__VW.YView, 0, i[0] )
+
+Converting GML script: ${project_dir}\objects\objMortalDamage\Step_0.gml
+Converted builtin - line 13: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview = i[u] -> __view_set( e__VW.YView, 0, i[u] )
+Converted builtin - line 15: view_yview = 0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\objFadeToWhite\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objBattleBackground\Create_0.gml
+Converted builtin - line 17: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 18: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objSkillsMenu\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objBattleInv\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objBattleInv\Other_10.gml
+Converted string - line 13: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\objects\objCustomDamage\Create_0.gml
+Converted description /// @description Counter damage
+
+Converting GML script: ${project_dir}\objects\objCustomBashPlayer\Create_0.gml
+Converted description /// @description A very customizable attack
+
+Converting GML script: ${project_dir}\objects\objCustomBashPlayer\Alarm_10.gml
+Converted description /// @description Ailments
+
+Converting GML script: ${project_dir}\objects\objCustomBashPlayer\Alarm_2.gml
+Converted description /// @description Basic bash damage - Backfire
+
+Converting GML script: ${project_dir}\objects\objCustomBashPlayer\Alarm_1.gml
+Converted description /// @description Basic bash damage
+
+Converting GML script: ${project_dir}\objects\objDamage\Create_0.gml
+Converted description /// @description Basic bash damage
+
+Converting GML script: ${project_dir}\objects\objPKFreeze\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objPKFire\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objPKThunder\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objPKFlash\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objBrainshock\Alarm_0.gml
+Converted description /// @description Damage goes here
+
+Converting GML script: ${project_dir}\objects\objBrainshockFx\Alarm_1.gml
+Converted builtin - line 1: view_xview[0] = 50*sin(n) -> __view_set( e__VW.XView, 0, 50*sin(n) )
+Converted builtin - line 3: view_xview[0]= 0 -> __view_set( e__VW.XView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\objHypnosis\Alarm_0.gml
+Converted description /// @description Damage goes here
+
+Converting GML script: ${project_dir}\objects\objParalysis\Alarm_0.gml
+Converted description /// @description Damage goes here
+
+Converting GML script: ${project_dir}\objects\objMagnet\Alarm_0.gml
+Converted description /// @description Damage goes here
+
+Converting GML script: ${project_dir}\objects\objStatUp\Alarm_0.gml
+Converted description /// @description Damage goes here
+
+Converting GML script: ${project_dir}\objects\objShield\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 8: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objLifeup\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objHealing\Alarm_0.gml
+Converted description /// @description Damage goes here
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnAttack\Alarm_2.gml
+Converted description /// @description Basic bash damage - Backfire
+
+Converting GML script: ${project_dir}\objects\objEnAttack\Alarm_1.gml
+Converted description /// @description Basic bash damage
+
+Converting GML script: ${project_dir}\objects\objEnCustomBash\Create_0.gml
+Converted description /// @description A very customizable attack
+
+Converting GML script: ${project_dir}\objects\objEnCustomBash\Alarm_3.gml
+Converted description /// @description Message
+
+Converting GML script: ${project_dir}\objects\objEnCustomBash\Alarm_2.gml
+Converted description /// @description Basic bash damage - Backfire
+
+Converting GML script: ${project_dir}\objects\objEnCustomBash\Alarm_1.gml
+Converted description /// @description Basic bash damage
+
+Converting GML script: ${project_dir}\objects\objEnFreeze\Alarm_0.gml
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnFreezeDamage\Alarm_0.gml
+Converted description /// @description Damage goes here
+
+Converting GML script: ${project_dir}\objects\objEnFire\Alarm_0.gml
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnThunder\Alarm_0.gml
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnFlash\Alarm_0.gml
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnBrainshock\Alarm_2.gml
+Converted builtin - line 1: view_xview[0] = 50*sin(n) -> __view_set( e__VW.XView, 0, 50*sin(n) )
+Converted builtin - line 3: view_xview[0]= 0 -> __view_set( e__VW.XView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\objEnShield\Alarm_0.gml
+Converted string - line 8: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnLifeup\Alarm_0.gml
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnHealing\Alarm_0.gml
+Converted string - line 6: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objEnCustomDamage\Create_0.gml
+Converted description /// @description Counter damage
+
+Converting GML script: ${project_dir}\objects\objEnTemplate\Other_25.gml
+Converted description /// @description Last action
+
+Converting GML script: ${project_dir}\objects\objEnTemplate\Other_11.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnTemplate\Other_10.gml
+Converted description /// @description Choose move
+
+Converting GML script: ${project_dir}\objects\objEnBasic\Other_13.gml
+Converted description /// @description Make cry
+
+Converting GML script: ${project_dir}\objects\objEnBasic\Other_12.gml
+Converted description /// @description Waste turn
+
+Converting GML script: ${project_dir}\objects\objEnBasic\Other_11.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnBasic\Other_10.gml
+Converted description /// @description Choose move
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough\Other_13.gml
+Converted description /// @description Make cry
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough\Other_12.gml
+Converted description /// @description Waste turn
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough\Other_11.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough\Other_10.gml
+Converted description /// @description Choose move
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough2\Other_14.gml
+Converted description /// @description Disrupt senses
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough2\Other_13.gml
+Converted description /// @description Spread spores
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough2\Other_12.gml
+Converted description /// @description Waste turn
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough2\Other_11.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough2\Other_10.gml
+Converted description /// @description Choose move
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough3\Other_14.gml
+Converted description /// @description Defense Down
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough3\Other_13.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough3\Other_12.gml
+Converted description /// @description Solidify
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough3\Other_11.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnBasicTough3\Other_10.gml
+Converted description /// @description Choose move
+
+Converting GML script: ${project_dir}\objects\objEnBoss\Other_14.gml
+Converted description /// @description Solidify
+
+Converting GML script: ${project_dir}\objects\objEnBoss\Other_13.gml
+Converted description /// @description Lower guts
+
+Converting GML script: ${project_dir}\objects\objEnBoss\Other_12.gml
+Converted description /// @description Waste turn
+
+Converting GML script: ${project_dir}\objects\objEnBoss\Other_11.gml
+Converted description /// @description Bash
+
+Converting GML script: ${project_dir}\objects\objEnBoss\Other_10.gml
+Converted description /// @description Choose move
+
+Converting GML script: ${project_dir}\objects\objBattleBgEditor\Create_0.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\objBattleBgEditor\Step_0.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\objBattleBgEditor\Draw_0.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\objDebug\Create_0.gml
+Converted string - line 5: ' ' -> " "
+Converted string - line 26: '@' -> "@"
+
+Converting GML script: ${project_dir}\objects\objDebug\Alarm_0.gml
+Converted description /// @description Console
+Converted string - line 2: '@' -> "@"
+Converted string - line 3: ' ' -> " "
+Converted string - line 5: '@' -> "@"
+
+Converting GML script: ${project_dir}\objects\objDebug\Step_0.gml
+Converted description /// @description  handle debug
+
+Converting GML script: ${project_dir}\objects\objDebug\Draw_64.gml
+Converted description /// @description  handle debug
+
+Converting GML script: ${project_dir}\objects\objDebug\Draw_0.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 68: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 17: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 62: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 62: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 68: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Draw stats
+
+Converting GML script: ${project_dir}\objects\objDebug\KeyPress_123.gml
+Converted description /// @description  handle debug
+
+Converting GML script: ${project_dir}\objects\objDebug\KeyPress_122.gml
+Converted description /// @description  handle debug
+
+Converting GML script: ${project_dir}\objects\objPersistent\Draw_64.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 16: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 14: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 16: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Deals with the application surface, filtering, and fading
+
+Converting GML script: ${project_dir}\objects\objInGameMenu\Create_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 20: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objInGameMenu\Step_0.gml
+Converted builtin - line 38: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 45: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 50: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 55: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 38: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 45: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 50: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 55: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objInGameMenu\Draw_0.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objMapDisplay\Create_0.gml
+Converted string - line 140: ',' -> ","
+Converted string - line 141: ',' -> ","
+
+Converting GML script: ${project_dir}\objects\objMapDisplay\Draw_0.gml
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objMenu\Create_0.gml
+Converted string - line 3: '!' -> "!"
+
+Converting GML script: ${project_dir}\objects\objMenu\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objControls\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objPause\Create_0.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_inv\Create_0.gml
+Converted builtin - line 9: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\obj_inv\Step_0.gml
+Converted builtin - line 246: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 247: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\obj_inv\Draw_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 54: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 55: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 58: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 59: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 62: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 63: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 64: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 67: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 68: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 69: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 70: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 73: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 74: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 75: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 76: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 77: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 81: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objStorage\Create_0.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objStorage\Step_0.gml
+Converted builtin - line 136: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 137: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objStorage\Draw_0.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objEqp\Create_0.gml
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objEqp\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objEqp\Draw_0.gml
+Converted builtin - line 167: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 38: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 39: view_yview -> __view_get( e__VW.YView, 0 )
+Converted string - line 10: "\#" -> "\\#"
+Converted string - line 15: "\#" -> "\\#"
+Converted string - line 20: "\#" -> "\\#"
+Converted string - line 25: "\#" -> "\\#"
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Create_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Alarm_3.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description PP up all characters
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Alarm_2.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Lifeup all characters
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Alarm_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Step_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Other_12.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Heal one character
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Other_11.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description PP up one character
+
+Converting GML script: ${project_dir}\objects\objInvUseMenu\Other_10.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Lifeup one character
+
+Converting GML script: ${project_dir}\objects\objStatsMenu\Create_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}\objects\objStatsMenu\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objStatsMenu\Draw_0.gml
+Converted builtin - line 57: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 27: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 29: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objShop\Create_0.gml
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 29: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 31: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 29: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 31: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objShop\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objShop\Draw_0.gml
+Converted builtin - line 146: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objATMDisplay\Create_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}\objects\objATMDisplay\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objATMDisplay\Draw_0.gml
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 12: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 14: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 15: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objSkillsMenuOw\Create_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted builtin - line 13: view_xview -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}\objects\objSkillsMenuOw\Alarm_11.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Lifeup all characters
+
+Converting GML script: ${project_dir}\objects\objSkillsMenuOw\Alarm_10.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Lifeup or heal one character
+
+Converting GML script: ${project_dir}\objects\objSkillsMenuOw\Alarm_9.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+
+Converting GML script: ${project_dir}\objects\objSkillsMenuOw\Step_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objSkillsMenuOw\Draw_0.gml
+Error: variable 'message' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted builtin - line 185: view_xview -> __view_get( e__VW.XView, 0 )
+
+Converting GML script: ${project_dir}\objects\objNaming\Draw_0.gml
+Converted string - line 61: "\" -> "\\"
+Converted string - line 107: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objNaming\KeyPress_90.gml
+Converted string - line 31: "\" -> "\\"
+
+Converting GML script: ${project_dir}\objects\objNewGame\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objFlavorSelector\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\objSoundTest\Alarm_2.gml
+Converted description /// @description  Move arm to starting position
+
+Converting GML script: ${project_dir}\objects\objSoundTest\Alarm_1.gml
+Converted description /// @description Spin record and move arm
+
+Converting GML script: ${project_dir}\objects\objSoundTest\Step_0.gml
+Converted description /// @description Keyboard controls
+
+Converting GML script: ${project_dir}\objects\parCamera\Step_2.gml
+Converted builtin - line 8: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_xview = min(max(follow_obj.x-view_wview/2,0),room_width-view_wview) -> __view_set( e__VW.XView, 0, min(max(follow_obj.x-view_wview/2,0),room_width-view_wview) )
+Converted builtin - line 5: view_xview = min(max(x-view_wview/2,0),room_width-view_wview) -> __view_set( e__VW.XView, 0, min(max(x-view_wview/2,0),room_width-view_wview) )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview = min(max(follow_obj.y-view_hview/2,0),room_height-view_hview) -> __view_set( e__VW.YView, 0, min(max(follow_obj.y-view_hview/2,0),room_height-view_hview) )
+Converted builtin - line 6: view_yview = min(max(y-view_hview/2,0),room_height-view_hview) -> __view_set( e__VW.YView, 0, min(max(y-view_hview/2,0),room_height-view_hview) )
+Converted builtin - line 8: view_xview = round(__view_get( e__VW.XView, 0 )) -> __view_set( e__VW.XView, 0, round(__view_get( e__VW.XView, 0 )) )
+Converted builtin - line 9: view_yview = round(__view_get( e__VW.YView, 0 )) -> __view_set( e__VW.YView, 0, round(__view_get( e__VW.YView, 0 )) )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objOvermind\Draw_0.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Create_0.gml
+Converted builtin - line 42: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 43: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Alarm_3.gml
+Converted description /// @description Level up
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Alarm_2.gml
+Converted description /// @description Enemy drops
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Alarm_1.gml
+Converted description /// @description You win message
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Alarm_0.gml
+Converted description /// @description Insta-win detection
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objBattleSwirl\Draw_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objLevelUpper\Alarm_3.gml
+Converted description /// @description Level up
+
+Converting GML script: ${project_dir}\objects\objLevelUpper\Alarm_1.gml
+Converted description /// @description You win message
+
+Converting GML script: ${project_dir}\objects\objFadeOut\Draw_0.gml
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 33: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 33: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 36: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 39: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 42: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 42: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 30: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 33: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 33: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 36: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 39: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 39: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objFadeOutBattle\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objTextBox\Alarm_1.gml
+Converted description /// @description Handle typing messages
+
+Converting GML script: ${project_dir}\objects\objTextBox\Alarm_0.gml
+Converted description /// @description Close dialog bog, handle questions and timelines
+
+Converting GML script: ${project_dir}\objects\objTextBox\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 21: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 25: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 10: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 25: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objQuestion\Alarm_0.gml
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objQuestion\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 9: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 10: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objCutsceneBorder\Create_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objCutsceneBorder\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\objCutsceneDummy\Step_2.gml
+Converted builtin - line 2: view_xview = min(max(x-view_wview/2,0),room_width-view_wview) -> __view_set( e__VW.XView, 0, min(max(x-view_wview/2,0),room_width-view_wview) )
+Converted builtin - line 3: view_yview = min(max(y-view_hview/2,0),room_height-view_hview) -> __view_set( e__VW.YView, 0, min(max(y-view_hview/2,0),room_height-view_hview) )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 2: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 3: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objButterflyGet\Alarm_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objButterflyEffect\Create_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objButterflyEffect\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objGoodNight\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objIntroText\Draw_0.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 2: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objCustomFadeInOut\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objParallax\Draw_0.gml
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 11: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objPlayer\Alarm_4.gml
+Converted description /// @description Invincibility blinking
+
+Converting GML script: ${project_dir}\objects\objPlayer\Alarm_3.gml
+Converted description /// @description Invincibility reset
+
+Converting GML script: ${project_dir}\objects\objPlayer\Alarm_2.gml
+Converted description /// @description Splashing sound
+
+Converting GML script: ${project_dir}\objects\objPlayer\Alarm_1.gml
+Converted description /// @description Invincibility
+
+Converting GML script: ${project_dir}\objects\objPlayer\Alarm_0.gml
+Converted description /// @description Wonky controls
+
+Converting GML script: ${project_dir}\objects\objPlayer\Step_2.gml
+Converted builtin - line 36: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 34: view_xview = min(max(x-view_wview/2,0),room_width-view_wview) -> __view_set( e__VW.XView, 0, min(max(x-view_wview/2,0),room_width-view_wview) )
+Converted builtin - line 37: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 35: view_yview = min(max(y-view_hview/2,0),room_height-view_hview) -> __view_set( e__VW.YView, 0, min(max(y-view_hview/2,0),room_height-view_hview) )
+Converted description /// @description Bouncing off solids
+Converted builtin - line 36: view_xview = round(__view_get( e__VW.XView, 0 )) -> __view_set( e__VW.XView, 0, round(__view_get( e__VW.XView, 0 )) )
+Converted builtin - line 37: view_yview = round(__view_get( e__VW.YView, 0 )) -> __view_set( e__VW.YView, 0, round(__view_get( e__VW.YView, 0 )) )
+Converted builtin - line 34: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 34: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 35: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 35: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objPlayer\Step_0.gml
+Converted description /// @description Movement
+
+Converting GML script: ${project_dir}\objects\objPlayer\Other_10.gml
+Converted description /// @description Check whether to trigger invincibility
+
+Converting GML script: ${project_dir}\objects\objPlayer\Other_4.gml
+Converted builtin - line 14: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview = min(max(x-view_wview/2,0),room_width-view_wview) -> __view_set( e__VW.XView, 0, min(max(x-view_wview/2,0),room_width-view_wview) )
+Converted builtin - line 15: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 21: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_yview = min(max(y-view_hview/2,0),room_height-view_hview) -> __view_set( e__VW.YView, 0, min(max(y-view_hview/2,0),room_height-view_hview) )
+Converted description /// @description  Move the player to saved position
+Converted builtin - line 14: view_xview = round(__view_get( e__VW.XView, 0 )) -> __view_set( e__VW.XView, 0, round(__view_get( e__VW.XView, 0 )) )
+Converted builtin - line 20: view_xview = round(__view_get( e__VW.XView, 0 )) -> __view_set( e__VW.XView, 0, round(__view_get( e__VW.XView, 0 )) )
+Converted builtin - line 15: view_yview = round(__view_get( e__VW.YView, 0 )) -> __view_set( e__VW.YView, 0, round(__view_get( e__VW.YView, 0 )) )
+Converted builtin - line 21: view_yview = round(__view_get( e__VW.YView, 0 )) -> __view_set( e__VW.YView, 0, round(__view_get( e__VW.YView, 0 )) )
+Converted builtin - line 18: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 18: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objATM\Alarm_4.gml
+Converted description /// @description Deposit
+
+Converting GML script: ${project_dir}\objects\objATM\Alarm_3.gml
+Converted description /// @description Deposit
+
+Converting GML script: ${project_dir}\objects\objATM\Alarm_2.gml
+Converted description /// @description Withdraw
+
+Converting GML script: ${project_dir}\objects\objATM\Alarm_1.gml
+Converted description /// @description Withdraw
+
+Converting GML script: ${project_dir}\objects\objInstantRevitalizingMachine\Alarm_9.gml
+Converted description /// @description Revitalising!
+
+Converting GML script: ${project_dir}\objects\objRain\Create_0.gml
+Converted builtin - line 35: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 35: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\objRain\Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objRain\Draw_0.gml
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objSnow\Create_0.gml
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 40: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 40: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\objSnow\Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objBlackSnow\Create_0.gml
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 32: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: ${project_dir}\objects\objBlackSnow\Step_0.gml
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 1: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 1: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\objTestGirl\Alarm_10.gml
+Converted description /// @description A good night's rest 2
+
+Converting GML script: ${project_dir}\objects\objTestGirl\Alarm_9.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description A good night's rest 1
+
+Converting GML script: ${project_dir}\objects\objDialogTextGirl\Alarm_10.gml
+Converted description /// @description A good night's rest 2
+
+Converting GML script: ${project_dir}\objects\objDialogTextGirl\Alarm_9.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description A good night's rest 1
+
+Converting GML script: ${project_dir}\objects\objStorageGirl\Alarm_10.gml
+Converted description /// @description Checkout mode
+
+Converting GML script: ${project_dir}\objects\objStorageGirl\Alarm_9.gml
+Converted description /// @description Store mode
+
+Converting GML script: ${project_dir}\objects\objStorageGirl\Alarm_2.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Checkout mode
+
+Converting GML script: ${project_dir}\objects\objStorageGirl\Alarm_1.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Store mode
+
+Converting GML script: ${project_dir}\objects\objShopGirl\Alarm_6.gml
+Converted description /// @description Sell mode
+
+Converting GML script: ${project_dir}\objects\objShopGirl\Alarm_5.gml
+Converted description /// @description Sell mode
+
+Converting GML script: ${project_dir}\objects\objShopGirl\Alarm_4.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Sell mode
+
+Converting GML script: ${project_dir}\objects\objShopGirl\Alarm_2.gml
+Converted description /// @description Buy mode
+
+Converting GML script: ${project_dir}\objects\objShopGirl\Alarm_1.gml
+Converted description /// @description Buy mode
+
+Converting GML script: ${project_dir}\objects\objShopGirl\Alarm_0.gml
+Converted description /// @description Buy or sell?
+
+Converting GML script: ${project_dir}\objects\msgGenericAntsFlag\Create_0.gml
+Converted description /// @description Blocks your way and disappears if a certain flag has a certain value
+
+Converting GML script: ${project_dir}\objects\objStorageSpawn\Alarm_10.gml
+Converted description /// @description Checkout mode
+
+Converting GML script: ${project_dir}\objects\objStorageSpawn\Alarm_9.gml
+Converted description /// @description Store mode
+
+Converting GML script: ${project_dir}\objects\objStorageSpawn\Alarm_2.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Checkout mode
+
+Converting GML script: ${project_dir}\objects\objStorageSpawn\Alarm_1.gml
+Converted builtin - line 5: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Store mode
+
+Converting GML script: ${project_dir}\objects\objOwBoss\Alarm_0.gml
+Converted description /// @description Start the battle
+
+Converting GML script: ${project_dir}\objects\objOwBoss\Other_4.gml
+Converted description /// @description Set flags after boss is defeated
+
+Converting GML script: ${project_dir}\objects\objHotSpring\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+
+Game speed set to 60
+Added compatibility script 'action/action_current_room.gml'
+Added compatibility script 'action/action_inherited.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'background/background_get_height.gml'
+Added compatibility script 'background/background_get_width.gml'
+Added compatibility script 'background/draw_background.gml'
+Added compatibility script 'background/draw_background_part.gml'
+Added compatibility script 'draw/draw_enable_alphablend.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

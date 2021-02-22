@@ -1,0 +1,2 @@
+objPersistent.filter = 0;
+

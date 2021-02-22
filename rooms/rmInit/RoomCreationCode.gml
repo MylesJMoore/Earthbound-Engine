@@ -1,0 +1,5 @@
+audio_stop_all()
+init_system()
+instance_create(0,0,objPersistent)
+instance_create(0,0,objDebug)
+room_goto_next()

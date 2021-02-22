@@ -1,0 +1,2 @@
+objPlayer.canmove = 1
+

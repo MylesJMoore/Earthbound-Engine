@@ -1,0 +1,46 @@
+{
+  "spriteId": {
+    "name": "sprPHLDR_ow",
+    "path": "sprites/sprPHLDR_ow/sprPHLDR_ow.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": {
+    "name": "sprEnemyMask",
+    "path": "sprites/sprEnemyMask/sprEnemyMask.yy",
+  },
+  "persistent": false,
+  "parentObjectId": {
+    "name": "parFoe",
+    "path": "objects/parFoe/parFoe.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [
+    {"x":16.0,"y":24.0,},
+    {"x":16.0,"y":16.0,},
+  ],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"objOwEnemyTemplate","path":"objects/objOwEnemyTemplate/objOwEnemyTemplate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"objOwEnemyTemplate","path":"objects/objOwEnemyTemplate/objOwEnemyTemplate.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Overworld Enemies",
+    "path": "folders/Objects/Overworld Enemies.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "objOwEnemyTemplate",
+  "tags": [],
+  "resourceType": "GMObject",
+}
